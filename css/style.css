@@ -1,0 +1,186 @@
+
+html, body {
+  margin: 0;
+}
+
+h2 {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 100%;
+  margin-top: 10px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  width: 82%;
+}
+
+li {
+  display: block;
+  text-align: right;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.6em;
+}
+
+header {
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px 0;
+  text-align: center;
+}
+
+footer, p {
+  height: 30px;
+  font-family: 'PT Serif', serif;
+  width: 100%;
+}
+/* Header */
+#name {
+  font-size: 2em;
+  height: 38px;
+}
+
+.logo {
+  width: 10%;
+ margin: 10px 0;
+
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  border-bottom: 4px solid lightblue;
+  margin-bottom: 15px;
+}
+
+header, .hero {
+  justify-content: center;
+}
+
+.hero, img {
+  height: auto;
+}
+
+/* Bio */
+
+.bio {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.4em;
+  height: auto;
+}
+
+.bio, h2 {
+  margin-bottom: 5px;
+}
+
+/* Portfolio */
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.portfolio, p {
+  height: auto;
+  margin: 5px 0;
+}
+
+.portfolio, h3 {
+  font-size: .9em;
+}
+img {
+  width: 100%;
+}
+
+img, h3 {
+  height: auto;
+}
+
+.img {
+  padding:  .5rem;
+}
+.portfolio, .img:last-child {
+  padding-right: 0px;
+  margin-right: 0px;
+  float: right;
+}
+
+/* Footer */
+
+.social {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.fa {
+  width: 10%;
+}
+/* Pulls img1 and img2 on same row */
+
+@media screen and (min-width: 450px) {
+
+  #img3 {
+    width: 50%;
+  }
+
+  #img1, #img2 {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .logo {
+    margin-bottom: 0px;
+  }
+
+  nav {
+    float: left;
+    margin-top: 0px;
+  }
+
+  li {
+    text-align: left;
+  }
+}
+
+/* Puts img1, img2 and img3 on same row and adds margins to whole page */
+
+@media screen and (min-width: 750px) {
+
+  #img1, #img2, #img3 {
+    width: 31%;
+  }
+  
+  .container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/* Keeps ul from dropping out of place */
+
+@media screen and (max-width: 750px) {
+
+ ul {
+   width: 80vw;
+   float: right;
+ }
+}
