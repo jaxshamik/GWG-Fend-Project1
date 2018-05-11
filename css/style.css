@@ -39,7 +39,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 10px 0;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ img {
   width: 100%;
 }
 
-img, h3 {
+img {
   height: auto;
 }
 
@@ -175,6 +175,15 @@ img, h3 {
     margin-left: auto;
   }
 }
+/* Adjust h3 font for larger */
+
+@media screen and (min-width: 850px) {
+
+  h3 {
+    font-size: 1.2em;
+  }
+}
+
 /* Keeps ul from dropping out of place */
 
 @media screen and (max-width: 750px) {
