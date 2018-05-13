@@ -134,7 +134,7 @@ img {
 }
 /* Pulls img1 and img2 on same row */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 550px) {
 
   #img3 {
     width: 50%;
