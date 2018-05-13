@@ -73,7 +73,6 @@ header, .hero {
 
 .hero, img {
   height: auto;
-  width: auto;
 }
 
 /* Bio */
@@ -127,7 +126,7 @@ img {
 
 .social {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .fa {
